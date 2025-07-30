@@ -1,0 +1,53 @@
+body {
+    background-color: rgba(12, 96, 117, 0.938);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+    margin: 0;
+}
+
+main {
+background-color:rgba(30, 63, 133, 0.596);
+padding: 15px;
+border-radius: 5px;
+border: solid 5px rgb(255, 255, 255);
+max-width: 700px;
+width: 100%;
+color: white;
+
+}
+
+div{
+    background-color: rgba(255, 0, 149, 0.089);
+    min-height: 400px;
+    margin-top: 5px;
+    border: solid 5px rgb(255, 255, 255);
+    width: 100%;
+}
+ 
+
+button{
+  background-color: rgba(84, 13, 112, 0.699);
+    border-radius: 10px;
+    border: none;
+    width: 150px;
+    font-size: 15px;
+    border: solid 2px rgb(255, 255, 255);
+    color: white;
+}
+.Area{
+    display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+}
+
+button:hover{
+    background-color: blueviolet;
+}
+
+span{
+    margin: 9px;
+    padding: 9px;
+    background-color: rgb(156, 47, 156);
+}
