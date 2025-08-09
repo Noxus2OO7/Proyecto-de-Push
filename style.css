@@ -1,45 +1,42 @@
-body {
-    background-color: rgba(168, 129, 31, 0.623);
+body{
     display: flex;
-    justify-content: center;
-    align-items: center;
-   min-height: 100vh;
+    height: 100vh;
     margin: 0;
+    background-color: rgba(34, 3, 48, 0.877);
+     justify-content: center;
+    align-items: center;
 }
 
-main {
-background-color:rgba(255, 252, 49, 0.589);
-padding: 15px;
-border-radius: 5px;
-border: solid 5px rgb(0, 0, 0);
-max-width: 700px;
-width: 100%;
-
-}
-
-div{
-    background-color: rgba(212, 194, 35, 0.562);
-    height: 450px;
-    margin-top: 5px;
-    border: solid 5px rgb(0, 0, 0);
-    width: 100%;
-}
-
-input{
-    width: 40%;
-    border-radius: 5px;
-}   
-
-button{
-  background-color: rgba(180, 95, 14, 0.562);
-    border-radius: 10px;
-    border: none;
-    width: 150px;
-    font-size: 15px;
-    border: solid 2px rgb(0, 0, 0);
-}
-.Area{
+.hola{
+    height: 81%;
+width: 40%;
     display: flex;
-flex-wrap: wrap;
-align-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(42, 1, 1, 0.749);
+    border-radius: 20px;
+    border: solid 2px #a90000;
+}
+
+a {
+   text-decoration: none;
+   color: rgb(255, 255, 255); 
+   background-color: rgb(97, 1, 1);
+width: 730px;
+margin: 5px;
+text-align: center;
+transition: 0.4s;
+font-size: 20px;
+border-radius: 8px;
+border: solid 1px #ff0000;
+
+}
+
+
+a:hover{
+background-color: rgb(255, 87, 121);
+}
+
+.primero{
+    margin-top: 1%;
 }
