@@ -48,6 +48,12 @@ button:hover{
 
 span{
     margin: 9px;
-    padding: 9px;
     background-color: #c98350;
+}
+
+
+.selected {
+    background-color: #f0a500;
+    color: black;
+
 }
